@@ -1,0 +1,287 @@
+
+/* Hero Section */
+#hero {
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, rgb(0, 0, 0) 2.884%, rgba(16, 16, 16, 0) 101.034%), 
+    url('/images/Banner Image.png');  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    margin: 20px auto;
+    width: 100%;  
+    max-width: 1320px; 
+    height: 60vh;  
+    border-radius: 10px;
+    margin-top: 50px;
+    
+    
+  }
+  
+ 
+  .overlay {
+    text-align: center;
+    color: white;
+    padding: 20px;
+   
+  }
+  
+  .overlay p {
+    font-size: 32px; 
+    margin: 10px 0;
+    font-family: "Merriweather";
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .overlay h1 {
+    font-size: 72px;
+    color: white;
+    margin: 20px 0;
+    font-family: Merriweather;
+     
+  }
+
+
+
+.sells{
+    font-size: 88px;
+    color: rgba(255, 0, 0, 1);
+    text-align-last: center;
+    font: bold;
+    font-family: 'Inter';
+}
+
+
+.sells-date{
+    font-size: 24px;
+    color:rgba(255, 0, 0, 1);
+    text-align: center;
+    margin-top: -50px;
+    font-family: 'Inter';
+}
+
+.categories{
+    font-size: 48px;
+    color: rgba(7, 2, 17, 1);
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Inter';
+    margin-top: -10px;
+}
+
+.NewYearPicture{
+    display: flex;
+    justify-content: center;
+    margin:48px 0;
+}
+
+
+
+.lower-hero {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(100deg, rgb(0, 0, 0) 2.884%, rgba(16, 16, 16, 0) 101.034%), 
+    url('/images/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+    margin: 20px auto;
+    width: 100%;  
+    max-width: 1320px; 
+    height: 60vh;  
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+
+.greetings{
+    font-size: 64px;
+    font-family: "Merriweather";
+    color: aliceblue;
+    text-align: left;
+    margin-right: 550px;
+    margin-left: 126px;
+    margin-top: 126px;
+}
+.dialogue{
+    font-family: "Inter";
+    color: rgba(255, 255, 255, 0.8);
+    text-align: left;
+    margin-left: 126px;
+    margin-right: 550px;
+    margin-top:24px ;
+}
+
+.joinnow-a a {
+    color: rgba(255, 255, 255, 0.8); 
+    font-family: 'Inter';
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 158px;
+    margin-top: 50px;
+    text-decoration: none; 
+   
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fde6e6;
+    background-position: center;
+    background-size: cover;
+    margin: 20px auto;
+    width: 100%;  
+    max-width: 1320px; 
+    height: 482px;  
+    border-radius: 10px;
+    margin-top: 120px;
+}
+
+.card-content{
+    text-align: center;
+    font-family: "Inter";
+    font-size: 32px;
+    font-weight: bold;
+    
+    margin-top: 10px;
+    
+    
+    
+
+}
+.same-color{
+    color: red;
+    font-family: "Inter";
+}
+
+.btn-primary{
+    background-color: rgb(255, 0, 13);
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    padding: 20px 45px;
+    border-radius: 10px;
+    border: none;
+    
+}
+.text-center{
+    text-align: center;
+}
+
+
+
+
+.new-best-order{
+    font-family: "Inter";
+    font-size: 24px;
+    color:rgba(255, 0, 0, 1);
+}
+
+
+
+.right-2025{
+    font-size: 24px;
+    font-family: "Inter";
+    color: rgba(255, 0, 0, 1);
+}
+
+.best-order-sub-section{
+    font-size: 48;
+    font-family: "Merriweather";
+    color: #070211;
+}
+
+
+.main-2nd-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto;
+    padding: 0px 20px;
+    max-width: 1320px;
+    flex-wrap: wrap;
+}
+
+
+.left-part h4,
+.right-part h3 {
+    color: rgba(255, 0, 0, 1);
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.best-order-sub-section {
+    font-size: 2.5rem;
+    font-family: "Merriweather", serif;
+    color: #070211;
+    margin-bottom: 15px;
+}
+
+.left-part p,
+.right-part p {
+    font-family: "Inter", sans-serif;
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+
+
+.center-image img {
+    width: 300px;
+    height: 300px;
+    border: 20px solid rgb(255, 0, 0);
+    border-radius: 50%;
+   
+    object-fit: cover;
+}
+
+.new-year-banner {
+    margin-top: 20px;
+    width: 150px;
+    height: auto;
+}
+
+
+.main-3rd-section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 118px;
+    
+}
+
+.section-3d-title{
+    font-family: "Inter";
+    font-size: 24px;
+    color: #070211;
+    
+}
+
+.section-3d-sub-title{
+    font-family: "Merriweather";
+    font-size: 72px;
+    margin-top: -16px;
+    
+}
+.main-3rd-section p{
+    font-family: "Inter";
+    font-size: 24px;
+    color:rgba(7, 2, 17, 0.6);
+    
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+}
+
+
+
+
+
