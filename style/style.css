@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
     background: linear-gradient(180deg, rgb(0, 0, 0) 2.884%, rgba(16, 16, 16, 0) 101.034%), 
-    url('/images/Banner Image.png');  
+    url('/images/Banner\ Image.png');  
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;  
@@ -280,6 +280,7 @@
     align-items: center;
     margin-top: -20px;
 }
+
 
 
 
